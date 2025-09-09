@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Team UNL - Major Chooser
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository hosts artifacts related to our term project for the summer offering of CSCI 4830. The project itself is a basic web app that helps users explore some of the majors offered at UNL. For users who are unsure of what major they want to pursue, a 28-question quiz can be taken that recommends a possible major based on their responses to each prompt. More information on each major is also offered below the quiz for users interested in learning more about any potential fields.
 
-## Available Scripts
+## Release Notes
+### v1.0.0
+- Read about majors by clicking on their tiles
+-   - 48 majors to choose from
+    - Viewable info is taken directly from the UNL admissions web pages
+- Take a quiz to see which major you might be interested in
+    - 28 yes/no questions
 
-In the project directory, you can run:
+## Team Members
+- Andrew Aldana
+- JaeHyeok An
+- Jacob Harvey
 
-### `npm start`
+## Development Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To work on this project, first ensure you have Node installed on your machine and this repository cloned. Navigate to your local version of the repo and install dependencies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+You should then be able to start a local instance of the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm start
+```
 
-### `npm run build`
+This local instance should update with any changes you make to the source file. You should now be set up to begin development on the project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To deploy the latest version of the project to GitHub pages, run the following command.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run deploy
+```
 
-### `npm run eject`
+This script will take care of the entire deployment process and you should be able to access the app at https://aaldana8.github.io/my_first/. **Note:** it may take a while before the deployment is complete.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
